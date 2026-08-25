@@ -1,3 +1,22 @@
+# Site Settings
+title: Archit's Portfolio
+description: Personal website and project showcase.
+baseurl: "" # Keep empty for user site (blacklotus5.github.io)
+url: "https://blacklotus5.github.io"
+
+# Theme Selection
+# Choose one of the following methods:
+
+# Method A: Standard Built-in Theme
 theme: jekyll-theme-minimal
-title: Archit's homepage
-description: Bookmark this to keep an eye on my project updates!
+
+# Method B: External Theme via Remote Theme (uncomment below and comment out 'theme' above to use)
+# plugins:
+#   - jekyll-remote-theme
+# remote_theme: pages-themes/cayman
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
