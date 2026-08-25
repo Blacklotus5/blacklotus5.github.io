@@ -1,0 +1,65 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* --------------------------------------------------
+   1. HIDE FOOTER
+   -------------------------------------------------- */
+footer {
+  display: none !important;
+}
+
+/* --------------------------------------------------
+   2. MODERN STYLING OVERRIDES
+   -------------------------------------------------- */
+body {
+  background-color: #0f172a !important; /* Rich Dark Background */
+  color: #e2e8f0 !important;           /* Soft Light Text */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header & Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: #f8fafc !important;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Links & Accents */
+a {
+  color: #38bdf8 !important;            /* Vibrant Blue Accents */
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #7dd3fc !important;
+  text-decoration: underline;
+}
+
+/* Sidebar Styling */
+header {
+  border-right: 1px solid #1e293b;
+}
+
+header p {
+  color: #94a3b8 !important;
+}
+
+/* Content Area Card Styling */
+section {
+  background-color: #1e293b;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  border: 1px solid #334155;
+}
+
+/* Code Blocks */
+pre, code {
+  background-color: #090d16 !important;
+  color: #f1f5f9 !important;
+  border-radius: 6px;
+  border: 1px solid #334155;
+}
